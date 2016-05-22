@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+English);
+
+// Font Variables
+$font-stack: 'IM Fell English', serif;
+
+body {
+  font-family: $font-stack;
+  font-size: 16pt;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 130%;
+}
