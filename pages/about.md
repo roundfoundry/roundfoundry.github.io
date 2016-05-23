@@ -1,6 +1,5 @@
 ---
-title: About the Round Foundry
-subtitle: What do we do?
+title: About us
 layout: page
 permalink: /about/
 ---
