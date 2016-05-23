@@ -1,0 +1,7 @@
+<nav>
+  <ul>
+  {% for item in site.data.nav
+    %}<li>{% include sitelink.html title=item.title link=item.slug %}</li>{%
+  endfor %}
+</ul>
+</nav>
