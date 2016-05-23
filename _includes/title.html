@@ -1,4 +1,5 @@
 <header>
-  <h1>{{ include.title }}{% if include.subtitle
-      %}<span>{{ include.subtitle }}</span>{% endif %}</h1>
+  <h1>{{ include.title }}
+  {% if include.subtitle %}<span>{{ include.subtitle }}</span>{% endif %}
+  </h1>
 </header>
