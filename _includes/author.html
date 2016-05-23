@@ -1,0 +1,7 @@
+{% assign a = site.data.authors[include.author] %}
+
+<ul>
+  <li>{{ a.name }}</li>
+  <li>{% include twitter.html handle=a.twitter %}</li>
+  <li>{% include github.html username=a.github %}</li>
+</ul>

@@ -1,0 +1,5 @@
+<ul>
+  {% for post in include.posts %}
+    <li>{% include sitelink.html link=post.url title=post.title %}</li>
+  {% endfor %}
+</ul>
