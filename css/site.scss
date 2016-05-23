@@ -3,6 +3,8 @@
 # only Main files contain this front matter, not partials.
 ---
 
+$mobile-max: "640px";
+
 @import 'meyer-reset.scss';
 @import 'type.scss';
 @import 'layout.scss';
