@@ -1,9 +1,7 @@
 ---
-title: Round Foundry DevOps Engineering
+title: DevOps Engineering
 layout: page
 permalink: /
 ---
-
-{% include title.html title="Round Foundry" subtitle="DevOps Engineering" %}
 
 Coming soon...
